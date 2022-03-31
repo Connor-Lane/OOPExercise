@@ -5,11 +5,12 @@ const mulan = {
     // 1b
     quote: () => `Dishonor! Dishonor on your whole family!`,
     // 1c
-    storyline: () => {
+    storyline: function() {
         return `The movie ${this.title} is about ${this.main}`;
     }
 };
 console.log(mulan);
+console.log(mulan.storyline());
 
 console.log(`==================`);
 
